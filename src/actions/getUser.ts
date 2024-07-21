@@ -1,4 +1,4 @@
-/*import { saveUser } from '../integrations/users';
+import { saveUser } from '../integrations/users';
 
 const username = process.argv[2];
 if (!username) {
@@ -11,5 +11,3 @@ saveUser(username).then(() => {
 }).catch(error => {
     console.error('Error saving user:', error);
 });
-*/
-console.error('Unknown command');
