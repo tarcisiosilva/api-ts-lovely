@@ -1,9 +1,7 @@
 # Lovely API 
 Repository  - api  for command line of database 
 
-
-
-Esta aplicação de linha de comando permite obter informações de usuários do GitHub e armazená-las em um banco de dados PostgreSQL.
+This application of line command is used to get users informarion GitHub and insert in PostgreSQL database
 
 ## Setup
 
@@ -15,20 +13,20 @@ Configure the  PostgreSQL and  run  migration:
 
 npx ts-node src/db/index.ts
 
-## Uso
+## Use
 
-### Obter informações de um usuário
+### Get information of User 
 
-npx ts-node src/index.ts getUserInfo <username>
+npx ts-node index.ts getUserInfo <username>
 
-### Listar todos os usuários
+### Get information all Users
 
-npx  ts-node src/index.ts listUsers
+npx  ts-node index.ts listUsers
 
-### Listar usuários por localização
+### Get information User for location
 
-npx ts-node src/index.ts listUsersByLocation <location>
+npx ts-node index.ts listUsersByLocation <location>
 
-### Listar usuários por linguagem de programação
+### Get information  User for Language
 
-npx ts-node src/index.ts listUsersByLanguage <language>
+npx ts-node index.ts listUsersByLanguage <language>
