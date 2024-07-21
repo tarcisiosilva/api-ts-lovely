@@ -17,16 +17,16 @@ npx ts-node src/db/index.ts
 
 ### Get information of User 
 
-npx ts-node index.ts getUserInfo <username>
+npx ts-node src/index.ts getUserInfo <username>
 
 ### Get information all Users
 
-npx  ts-node index.ts listUsers
+npx  ts-node src/index.ts listUsers
 
 ### Get information User for location
 
-npx ts-node index.ts listUsersByLocation <location>
+npx ts-node src/index.ts listUsersByLocation <location>
 
 ### Get information  User for Language
 
-npx ts-node index.ts listUsersByLanguage <language>
+npx ts-node src/index.ts listUsersByLanguage <language>
