@@ -1,7 +1,7 @@
 # Lovely API 
 Repository  - api  for command line of database 
 
-This application of line command is used to get users informarion GitHub and insert in PostgreSQL database
+This application of command  line is used to get users information GitHub and insert in PostgreSQL database
 
 ## Setup
 
